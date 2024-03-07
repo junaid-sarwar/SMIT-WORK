@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Review</title>
+</head>
+<body>
+    <center>
+    <table>
+        <tbody>
+            <th bgcolor="lightgreen">
+                <h4>Step1: <br>Account Details</h4>
+            </th>
+            <th bgcolor="lightgreen">
+                <h4>Step2: <br>Personal Details</h4>
+            </th>
+            <th bgcolor="lightblue">
+                <h4>Step3: <br>Your Review</h4>
+            </th>
+        </tbody>
+    </table>
+   </center>
+    <center>
+        <form style="width: 30%;">
+            <fieldset align="left">
+                <legend>Your Review</legend>
+                <label for="socials">How Did You hear about us?</label>
+                <select name="socials" id="socials">
+                    <option value="Facebook">Facebook</option>
+                    <option value="Instagram">Instagram</option>
+                    <option value="Twitter">Twitter</option>
+                    <option value="Youtube">Youtube</option>
+                    <option value="LinkedIn">LinkedIn</option>
+                </select>
+                    
+               <br>
+              <p> <label for="visit-again">Would you visit again?</label> </p>
+              <input type="radio" name="visit-again" id="visit-again" value="Yes">
+              <label for="visit-again">Yes</label>
+              <input type="radio" name="visit-again" id="visit-again" value="No">
+              <label for="visit-again">No</label>
+              <input type="radio" name="visit-again" id="visit-again" value="Maybe">
+              <label for="visit-again">Maybe</label>
+
+              <br>
+
+                <p><label for="comments">Comments:</label> </p>
+              <textarea name="comments" id="comments" cols="40" rows="5" placeholder="Enter your comments here"></textarea>
+
+              <br>
+
+              <p>
+                Documents:
+              </p>
+                <input type="file" name="documents" id="documents">
+            
+                <br>
+
+                <br>
+                <input type="checkbox" name="email-updates" id="email-updates">
+                <label for="email-updates">Sign me up for email updates.</label>
+                <br>
+                <br>
+
+
+
+                <a href="./personal.html">
+                    <img src="./assets/back.png" alt="GO BACK ARROW" width="50x50px">
+                </a>
+                
+                <a href="./submit.html">
+                    <img src="./assets/next.png" alt="FORWARD ARROW" width="50x50px">
+                </a>
+
+
+            </fieldset>
+        </form>
+    </center>
+</body>
+</html>

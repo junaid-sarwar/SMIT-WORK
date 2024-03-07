@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saylani Form</title>
+</head>
+<center>
+<img src="/Saylani logo.svg" alt="Saylani Logo" width="300px">
+<h2>Saylani Mass Training & Job Creation Program</h2>
+<h3>Registration/Entry Test Form</h3>
+</center>
+<body>
+   
+<form action="#">
+    <label for="courses">Select Your Course*</label><br>
+   <select name="courses" id="courses" required>
+    <option value="graphic_designing">Graphic Designing</option>
+    <option value="wma">Web and Mobile App Development</option>
+    <option value="flutter">Flutter</option>
+    <option value="graphics_animation">Graphics and Animation</option>
+    <option value="ai">Artificial Intelligence</option>
+   </select>  <label for="batch">Select Your Batch*</label> <select name="batch" id="batch" required> 
+    <option value="7">7</option>
+    <option value="8">8</option>
+    <option value="9">9</option>
+    <option value="10">10</option>
+   </select> <br> <br> <br>
+
+   <input type="text" placeholder="Your Name*" name="name" required maxlength="18" style="border: none;"><hr><p>Max characters allowed:18</p>
+   <br>
+
+   <label for="dob">Date Of Birth*</label><br>
+   <input type="date" name="dob" id="dob" required>     <label for="age">Your Age*</label>
+   <input type="number" name="age" id="age" required> <br>  <br>
+
+   <label for="gender">Gender*</label><br>
+   <input type="radio" name="gender" id="gender" checked>
+   <label for="gender">Male </label>
+   <input type="radio" name="gender" id="gender">
+   <label for="gender">Female</label> <br> <br> <br>
+
+   <!-- <label for="cnic">CNIC/B-Form*</label> -->
+   <input type="number" name="cnic" id="cnic" placeholder="CNIC/B-Form*" required style="border: none;">
+    <hr>
+    <p style="font-size: smaller;">e.g: 42101123456789</p><br>
+
+    <!-- <label for="fathername">Father's Name</label> -->
+    <input type="text" name="fathername" id="fathername" placeholder="Father's Name" required maxlength="18" style="border: none;">
+   <hr> <br>
+
+   <input type="number" name="father_cnic" id="father_cnic" placeholder="Father's/Guardian's CNIC*" required style="border: none;">
+   <hr>
+   <p style="font-size: smaller;">e.g: 42101123456789</p> <br>
+
+   <!-- <input type="text" name="address" id="address" placeholder="Full and Permanent Address*" required> -->
+   <textarea name="address" id="address" placeholder="Full and Permanent Address*" maxlength="250" rows="2" cols="150" style="resize: none; border:none" required ></textarea>
+   <hr> <br>
+
+   <input type="number" name="cell_no" id="cell_no" placeholder="Cell Number*" required style="border: none;">
+   <hr>
+   <p style="font-size: smaller;">eg:03301234567</p> <br>
+
+   <input type="email" name="mail" id="mail" placeholder="Email*" required style="border: none;"> 
+   <hr>
+   <p style="font-size: smaller;">Provide a valid, accessible email that we will use to contact you.</p> <br>
+
+   <p>Last Qualification <br>
+    <input type="radio" name="qualification" id="qualification">
+    <label for="qualification">None</label>
+    <input type="radio" name="qualification" id="qualification" checked>
+    <label for="qualification">Matric</label>
+    <input type="radio" name="qualification" id="qualification">
+    <label for="qualification">Intermediate</label>
+    <input type="radio" name="qualification" id="qualification">
+    <label for="qualification">Bachelors</label>
+    <input type="radio" name="qualification" id="qualification">
+    <label for="qualification">Masters</label>
+    <input type="radio" name="qualification" id="qualification">
+    <label for="qualification">Phd</label>
+   </p>
+
+   <label for="image">Upload your recent image (face front,without glasses and with a single-colored background*) </label> <br>
+   <input type="file" name="image" id="image" required>
+    <p style="font-size: smaller;">only png or jpg with size < 1mb is allowed</p>
+
+    <p>Availibility* <br>Select class timings mentioned below as per your availibility and priority</p>
+
+    <label for="timing"></label>
+   <select name="timing" id="timing" required>
+    <option value="montuewed">Priority#1 Mon,Tues & Wed (3PM to 5PM)</option>
+    <option value="thurfri">Priority#2 Thu & Fri (6PM to 8PM)</option>
+    <option value="satsun">Priority#3 Sat & Sun (10AM to 12PM)</option>
+    <option value="sun">Priority#4 Sunday (12PM to 3PM)</option>
+   </select>
+
+   <p>Declaration Undertaking*</p>
+   <ol>
+    <li>I hereby, solemnly declare that the data and facts mentioned herein are true and correct to the best of my knowledge. Further, i will abide by my all the establish <br> and future regulation and policies of SMIT.</li>
+    <li>I hereby accept the responsibilities of the good conduct and guarantee that I will not be involved in any other activity,political and ethic, but learning during my stay <br> in the program.</li>
+    <li>Defiance will render my admission cancelled at any point in time.</li>
+    <li>Upon completion of course, I will complete the required project by SMIT</li>
+   </ol>
+
+   <input type="checkbox" name="agreement" id="agreement" required>
+   <label for="agreement">I agree above terms and conditions.</label>
+   <br>
+
+<br>
+
+   <input style=" background-color: cornflowerblue; color:white"type="submit">
+</form>
+<h2>Made By : S.M. Junaid Sarwar WMA-199319(11)</h2>
+
+</body>
+</html>
